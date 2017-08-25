@@ -1,0 +1,27 @@
+﻿CREATE TABLE [dbo].[Table1]
+(
+	[Id] INT NOT NULL PRIMARY KEY, 
+    [Name] NVARCHAR(100) NULL, 
+    [MaxPad] NCHAR(1) NULL, 
+    [DistanceToStar] DECIMAL(18, 4) NULL, 
+    [AllegianceId] INT NULL, 
+    [GovernmentId] INT NULL, 
+    [StateId] INT NULL, 
+    [TypeId] INT NULL, 
+    [HasBlackmarket] BIT NULL, 
+    [HasRefuel] BIT NULL, 
+    [HasRepair] BIT NULL, 
+    [HasRearm] BIT NULL, 
+    [HasOutfitting] BIT NULL, 
+    [HasShipyard] BIT NULL, 
+    [HasDocking] BIT NULL, 
+    [HasCommodities] BIT NULL, 
+    [IsPlanetary] BIT NULL, 
+    [Updated] DECIMAL NULL, 
+    [ShipyardUpdated] DECIMAL NULL, 
+    [OutfittingUpdated] DECIMAL NULL, 
+    [MarketUpdated] DECIMAL NULL, 
+    [SystemId] INT NULL FOREIGN KEY References Systems(Id), 
+    [ControllingMinorFactionId] INT NULL, 
+    [BodyId] INT NULL
+)

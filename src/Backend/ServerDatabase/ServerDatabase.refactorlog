@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="c1cbfed8-7e25-40cb-a345-7656d92667bc" ChangeDateTime="08/25/2017 04:32:28">
+    <Property Name="ElementName" Value="[dbo].[Table1].[DTS]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="DistanceToStar" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="7c0be03d-0a16-432e-b5e8-508cde7ee1a3" ChangeDateTime="08/25/2017 04:33:40">
+    <Property Name="ElementName" Value="[dbo].[Table1].[HasReArm]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="HasRearm" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="4b62c7ef-ad76-4c42-a159-5f1843935e7d" ChangeDateTime="08/25/2017 04:35:11">
+    <Property Name="ElementName" Value="[dbo].[Table1].[Update]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Table1]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Updated" />
+  </Operation>
+</Operations>
