@@ -8,8 +8,13 @@ namespace DatabaseManager
 {
     class Program
     {
+        public void EDDNListen()
+        {
+
+        }
         static void Main(string[] args)
         {
+
         }
     }
 }

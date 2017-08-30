@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Data.SqlClient;
 
-namespace DatabaseManager
+namespace DatabaseManager.Normalizers
 {
-    class Class1
+    interface INormalizer
     {
+        void GetData();
     }
 }
